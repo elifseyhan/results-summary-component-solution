@@ -30,8 +30,8 @@ Users should be able to:
 
 ### Links
 
-- Solution URL: [Github](https://your-solution-url.com)
-- Live Site URL: [Netlify](https://your-live-site-url.com)
+- Solution URL: [Github](https://github.com/elifseyhan/results-summary-component-solution)
+- Live Site URL: [Netlify](https://cool-fenglisu-c5159e.netlify.app/)
 
 ## My process
 
