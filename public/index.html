@@ -1,0 +1,117 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <!-- displays site properly based on user's device -->
+
+        <link
+            rel="icon"
+            type="image/png"
+            sizes="32x32"
+            href="./assets/images/favicon-32x32.png"
+        />
+
+        <link rel="preconnect" href="https://fonts.googleapis.com" />
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+        <link
+            href="https://fonts.googleapis.com/css2?family=Hanken+Grotesk:wght@500;700;800&display=swap"
+            rel="stylesheet"
+        />
+
+        <link rel="stylesheet" href="./css/style.css" />
+
+        <title>Frontend Mentor | Results summary component</title>
+    </head>
+    <body>
+        <main class="sm:flex sm:flex-col sm:items-center sm:justify-center sm:min-h-screen">
+            <div class="grid sm:grid-cols-2 grid-cols-1 shadow-lg rounded-[2rem]">
+                <!-- Left side -->
+                <div
+                    class="grid-cols-1 sm:w-[370px] text-center bg-gradient-to-b from-10% from-light-state-blue to-light-royal-blue rounded-b-[2rem] sm:rounded-t-[2rem] flex flex-col justify-center items-center pt-9 pb-12 px-14"
+                >
+                    <p class="text-light-lavender text-lg sm:text-2xl">Your Result</p>
+                    <div
+                        class="mt-7 sm:mt-9 mb-6 bg-gradient-to-b from-violet-blue to-persian-blue flex flex-col text-center justify-center w-[150px] h-[150px] sm:w-[200px] sm:h-[200px] rounded-full"
+                    >
+                        <span class="block text-white text-5xl sm:text-7xl">76</span>
+                        <span class="text-light-lavender text-lg">of 100</span>
+                    </div>
+                    <h1 class="text-white text-2xl sm:text-[2rem] mb-3">Great</h1>
+                    <p class="text-light-lavender leading-6 font-medium sm:text-base">
+                        You scored higher than 65% of the people who have taken
+                        these tests.
+                    </p>
+                </div>
+                <!-- Right side -->
+                <div class="grid grid-cols-1 pt-9 px-10 pb-12 content-between">
+                    <h2 class="text-xl sm:text-2xl font-bold mb-4">Summary</h2>
+                    <div
+                        class="flex p-4 bg-light-red-5 justify-between items-center rounded-lg text-md sm:text-lg mb-4"
+                    >
+                        <div class="flex items-center text-light-red">
+                            <img
+                                src="./images/icon-reaction.svg"
+                                alt=""
+                                class="pr-3"
+                            />
+                            <span class="opacity-100">Reaction</span>
+                        </div>
+                        <div class="font-bold"
+                            >80 <span class="opacity-40 tracking-wide">/ 100</span></div
+                        >
+                    </div>
+                    <div
+                        class="flex p-4 bg-orangey-yellow-5 justify-between items-center rounded-lg text-md sm:text-lg mb-4"
+                    >
+                        <div class="flex items-center text-orangey-yellow">
+                            <img
+                                src="./images/icon-memory.svg"
+                                alt=""
+                                class="pr-3"
+                            />
+                            <span class="opacity-100">Memory</span>
+                        </div>
+                        <div class="font-bold"
+                            >92 <span class="opacity-40 tracking-wide">/ 100</span></div
+                        >
+                    </div>
+                    <div
+                        class="flex p-4 bg-green-teal-5 justify-between items-center rounded-lg text-md sm:text-lg mb-4"
+                    >
+                        <div class="flex items-center text-green-teal">
+                            <img
+                                src="./images/icon-verbal.svg"
+                                alt=""
+                                class="pr-3"
+                            />
+                            <span class="opacity-100">Verbal</span>
+                        </div>
+                        <div class="font-bold"
+                            >61 <span class="opacity-40 tracking-wide">/ 100</span></div
+                        >
+                    </div>
+                    <div
+                        class="flex p-4 mb-5 bg-cobalt-blue-5 justify-between items-center rounded-lg text-md sm:text-lg"
+                    >
+                        <div class="flex items-center text-cobalt-blue">
+                            <img
+                                src="./images/icon-visual.svg"
+                                alt=""
+                                class="pr-3"
+                            />
+                            <span class="opacity-100">Visual</span>
+                        </div>
+                        <div class="font-bold"
+                            >72 <span class="opacity-40 tracking-wide">/ 100</span></div
+                        >
+                    </div>
+                    <div>
+                        <a href="#"
+                            class="block text-center py-3 bg-dark-gray-blue text-white rounded-3xl text-lg hover:bg-gradient-to-b hover:from-light-state-blue hover:to-light-royal-blue"
+                        >Continue</a>
+                    </div>
+            </div>
+        </main>
+    </body>
+</html>
